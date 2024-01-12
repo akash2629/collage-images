@@ -1,4 +1,6 @@
-
+h1{
+    color:red;
+}
 
 
 img{
@@ -14,7 +16,20 @@ img{
 .row > div{
     flex: 1;
 }
+.image img{
+    height:calc( (100% - 5px)/2 );
+}
+.collage-images {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 5px;
+}
 
- .image img{
+ /* .image img{
    height: 200px;
-} 
+}
+.collage-images img{
+    width: 210px;
+    height: 210px;
+
+} */
